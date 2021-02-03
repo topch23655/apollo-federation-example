@@ -1,0 +1,19 @@
+{
+  "name": "netflix-clone-auth",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node -r esm index.js"
+  },
+  "dependencies": {
+    "@apollo/federation": "^0.21.0",
+    "@apollo/gateway": "^0.22.0",
+    "apollo-server-express": "^2.19.2",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "graphql": "^15.5.0"
+  }
+}
